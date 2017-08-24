@@ -9,7 +9,7 @@ public class Ceshi {
 		Date date = new Date();
 		Calendar c = Calendar.getInstance();
 		c.setTime(date);
-		// Êı¾İ¿âÖĞÊ±¼ä×ª»» to_char(date, "yyyy-mm-dd hh24:mi:ss");
+		// æ•°æ®åº“æ—¶é—´è½¬æ¢ to_char(date, "yyyy-mm-dd hh24:mi:ss");
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		System.out.println(sdf.format(c.getTime()));
 	}
